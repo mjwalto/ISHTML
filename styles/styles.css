@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(34, 33, 33);
+}
+.homebg {
+    background-color: rgb(230, 190, 244);
+    background-position: top left;
+    text-align: center;
+}
+.fictionbg{
+    background-image: url(../images/fictionbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.resumebg{
+    background-image: url(../images/resumebg.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(background-image);
+}
+/* Above are the background colors for each page */
+a {
+    text-decoration: none;
+    color: rgb(39, 128, 210)
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(39, 128, 210);
+}
+/* above are the eadings and links for each page */
+
+.center{text-align: center;}
+.ital{font-style: italic;}
+
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(35, 16, 16);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+/* did this to prevent headings from being italicized while also bolding them */
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify{text-align: justify;}
+
